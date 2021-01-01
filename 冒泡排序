@@ -1,0 +1,20 @@
+
+void bubblesort1(int A[],int n)
+{
+  bool sorted=false;
+  while(!sorted)
+  {
+  sorted =ture;
+  for(int 1=1;i<n;i++)
+  {
+  if(A[i-1]>A[i])
+  {
+  swap(A[i-1],A[i]);
+  sorted=false;
+  }
+}
+n--;
+  }
+  
+  
+  }
